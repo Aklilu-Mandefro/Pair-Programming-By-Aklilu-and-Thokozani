@@ -1,0 +1,118 @@
+
+.form-group {
+ 
+    padding: 0.3rem;
+  }
+  
+  
+  body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+   
+    background-image: linear-gradient(
+        rgba(58, 58, 158, 0.8),
+        rgba(136, 136, 206, 0.7)
+      ),
+      url(https://cdn.dribbble.com/users/2076719/screenshots/15444984/d.jpg);
+    background-size: cover;
+  
+  }
+  
+  
+  
+  label {
+    display: flex;
+    align-items: center;
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  input,
+  button,
+  select,
+  textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+  }
+  
+  button {
+    border: none;
+  }
+  
+  .container {
+    
+    margin: auto;
+     padding: 2.5rem;
+        max-width: 720px;
+        color:white;
+       
+  
+  }
+  
+  
+  /* form */
+  
+  form {
+    background: #f06d06;
+     padding: 2.5rem;
+  
+  }
+  
+  
+  
+  
+  
+  .form-control {
+  
+    width: 100%;
+    height: 2.375rem;
+    padding: 0.375rem 0.75rem;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+  
+  }
+  
+  
+  
+  .input-radio,
+  .input-checkbox {
+    display: inline-block;
+    margin-right: 0.625rem;
+    min-height: 1.25rem;
+    min-width: 1.25rem;
+  }
+  
+  .input-textarea {
+    min-height: 120px;
+    width: 100%;
+    padding: 0.625rem;
+    resize: vertical;
+  }
+  
+  .submit-button {
+  
+    width: 100%;
+    padding: 0.75rem;
+    background: #03a84e;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+  
+   
+    background: blue;
+    color: white;
+  
+  }
